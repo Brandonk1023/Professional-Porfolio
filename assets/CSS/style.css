@@ -2,24 +2,25 @@
 
 h1 {
     color: #f0f0f1;
-    display: flex;
     justify-content: center;
 }
 
 .header {
     background-color: #50acc3;
     border-radius: .4%;
-}
-
-.headshot {
-    max-width: 15%;
-    border: 5px solid #d3538a;
-    border-radius: 20%;
     display: flex;
 }
 
+.headshot {
+    max-width: 20%;
+    border: 5px solid #d3538a;
+    border-radius: 20%;
+    margin: 1%;
+    order: -1;
+}
+
 .nav {
-    background-color: blue;
+    background-color: #d3538a;
     display: flex;
     justify-content: space-around;
 }
@@ -27,6 +28,20 @@ h1 {
 .image {
     max-width: 200px;
     border-radius: 20%;
+}
+
+.about-me {
+}
+
+.work {
+}
+
+.projects {
+}
+
+.footer {
+    background-color: #403970;
+    color: #f0f0f1;
 }
 
 
