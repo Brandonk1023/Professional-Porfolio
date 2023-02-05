@@ -7,8 +7,9 @@ h1 {
 
 .header {
     background-color: #50acc3;
-    border-radius: .4%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .headshot {
@@ -20,14 +21,16 @@ h1 {
 }
 
 .nav {
-    background-color: #d3538a;
-    display: flex;
-    justify-content: space-around;
+    background-color: #50acc3;
 }
 
-.image {
-    max-width: 200px;
-    border-radius: 20%;
+.nav-links {
+list-style-type: none;
+
+}
+
+.name {
+    color: #f0f0f1
 }
 
 .about-me {
@@ -36,8 +39,39 @@ h1 {
 .work {
 }
 
-.projects {
+.project-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 5%;
+margin: 5%;
 }
+
+.project {
+    background-color: #7d7e7c;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.image {
+    max-width: 200px;
+    border-radius: 20%;
+}
+
+.main-project-image {
+    max-width: 300px;
+    border-radius: 20%;
+}
+
+.main-project {
+    background-color: #bdc1d0;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .footer {
     background-color: #403970;
