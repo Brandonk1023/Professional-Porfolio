@@ -1,0 +1,18 @@
+.header {
+    background-color: #50acc3;
+    border-radius: .4%;
+}
+
+.headshot {
+    max-width: 15%;
+    border: 5px solid #d3538a;
+    border-radius: 20%;
+    margin-left: auto;
+}
+
+.nav {
+    diplay: inline;
+    background-color: blue;
+}
+
+
