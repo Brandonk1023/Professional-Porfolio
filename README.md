@@ -23,6 +23,9 @@ https://imagecolorpicker.com/
 Google Font:Roboto - 
 https://fonts.google.com/specimen/Roboto
 
+Common Media Query Break Points -
+https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+
 ## License
 
 MIT License

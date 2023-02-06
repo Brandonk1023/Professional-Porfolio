@@ -2,6 +2,10 @@ html {
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
+p {
+    font-size: 3vw;
+}
+
 .header {
     background-color: #50acc3;
     display: flex;
@@ -104,10 +108,19 @@ li {
     border-radius: 20%;
 }
 
+.image:hover {
+    opacity: 0.5;
+}
+
 .main-project-image {
     max-width: 300px;
     border-radius: 20%;
 }
+
+.main-project-image:hover {
+    opacity: 0.5;
+}
+
 
 .main-project {
     background-color: #bdc1d0;
