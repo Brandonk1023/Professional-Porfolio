@@ -62,6 +62,10 @@ li {
     align-items: center;
 }
 
+.nav-link:hover {
+    opacity: 0.5;
+}
+
 .name {
     color: #f0f0f1
 }
@@ -170,6 +174,10 @@ li {
     background-color: #f0f0f1;
     border: 5px solid #d3538a;
     border-radius: 5%;
+}
+
+.contact-item:hover {
+    opacity: 0.5;
 }
 
 
