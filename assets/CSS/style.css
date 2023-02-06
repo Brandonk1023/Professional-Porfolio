@@ -2,14 +2,15 @@
     background-color: #50acc3;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
     border: 5px solid #403970;
 }
 
 h1 {
     color: #f0f0f1;
-    justify-content: center;
+}
+
+h2 {
+    font-size: 300%;
 }
 
 ul {
@@ -22,6 +23,7 @@ li {
 }
 
 .headshot {
+    align-self: center;
     max-width: 20%;
     border: 5px solid #d3538a;
     border-radius: 20%;
@@ -30,13 +32,21 @@ li {
 
 .nav {
     background-color: #50acc3;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
-.nav-links {
-list-style-type: none;
-display: flex;
-justify-content: space-around;
-align-items: center;
+.nav-link {
+    width: auto;
+    padding: 5%;
+    border: 5px solid #d3538a;
+    background-color: #f0f0f1;
+    border-radius: 5%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .name {
@@ -44,26 +54,39 @@ align-items: center;
 }
 
 .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #50acc3;
+    border: 5px solid #403970;
+    margin: 5%;
+    border-radius: 5%;
+    color: #f0f0f1;
 }
 
 .project-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-padding: 5%;
-margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+    margin: 1%;
 }
 
 .project {
     background-color: #7d7e7c;
-    padding: 2%;
+    padding: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2%;
+    justify-content: space-between;
+    margin: 1%;
     max-width: 200px;
     border: 5px solid #d3538a;
     border-radius: 10%;
@@ -81,11 +104,14 @@ margin: 5%;
 
 .main-project {
     background-color: #bdc1d0;
-    padding: 2%;
+    color: #403970;
+    padding: 1%;
+    margin: 0% 15% 0% 15%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border: 5px solid #d3538a;
     border-radius: 10%;
 }
@@ -99,10 +125,12 @@ margin: 5%;
     border: 5px solid #403970;
 }
 
-.contact-me {
-    align-items: center;
-    justify-content: flex-end;
-    list-style-type: none;
+.contact-header {
+    width: 100%;
 }
 
-
+.contact-me {
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+}
