@@ -10,15 +10,18 @@ The reason for starting and building this project, was to create a portfolio lan
 
 GitHub Repositories Linked:
 
-Horiseon-Landing-Page
+Horiseon-Landing-Page - 
 https://github.com/Brandonk1023/Horiseon-Landing-Page
 
-Prework-Study-Guide
+Prework-Study-Guide - 
 https://github.com/Brandonk1023/prework-study-guide
 
 
-Image Color Picker - Used for color codes
+Image Color Picker: Used for color codes - 
 https://imagecolorpicker.com/
+
+Google Font:Roboto - 
+https://fonts.google.com/specimen/Roboto
 
 ## License
 
