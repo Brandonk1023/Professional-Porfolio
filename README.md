@@ -9,6 +9,7 @@ The reason for starting and building this project, was to create a portfolio lan
 ## Credits
 
 GitHub Repositories Linked:
+
 Horiseon-Landing-Page
 https://github.com/Brandonk1023/Horiseon-Landing-Page
 
