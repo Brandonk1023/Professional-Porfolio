@@ -1,19 +1,24 @@
-# Professional-Porfolio
+# Professional-Portfolio
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Description
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+The reason for starting and building this project, was to create a portfolio landing page for future use.  Allowing me to have on condenced location to direct those who may need to view or gain access to my work.  This would allow me to easily and more efficiently share my work with others. In doing doing this project, I was able to further work on my CSS, and Flexbox basics.  I was able to learn more about coding layouts and style sheet mechanics.
+
+
+
+## Credits
+
+GitHub Repositories Linked:
+Horiseon-Landing-Page
+https://github.com/Brandonk1023/Horiseon-Landing-Page
+
+Prework-Study-Guide
+https://github.com/Brandonk1023/prework-study-guide
+
+
+Image Color Picker - Used for color codes
+https://imagecolorpicker.com/
+
+## License
+
+MIT License
